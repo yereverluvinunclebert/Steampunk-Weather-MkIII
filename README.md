@@ -1,7 +1,5 @@
 # Steampunk-Weather-MkIII
 
-The weather widget is not receiving data as of 17th October 2023, this is being fixed now.
-
 ![weatherGaugeSteampunk](https://github.com/yereverluvinunclebert/Steampunk-Weather-MkIII/assets/2788342/315839f7-163a-4448-afd2-47f60fa499fa)
 
 Steampunk Desktop Weather widget, written in Javascript and XML for the Yahoo 
