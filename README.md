@@ -126,12 +126,17 @@ Tested on :
  
  Copyright 2023 Dean Beedell
  
- In addition to the GNU General Public Licence please be aware that you may use
- any of my own imagery in your own creations but commercially only with my
- permission. In all other non-commercial cases I require a credit to the
- original artist using my name or one of my pseudonyms and a link to my site.
- With regard to the commercial use of incorporated images, permission and a
- licence would need to be obtained from the original owner and creator, ie. me.
+Code: GNU GPL vX
+
+Artwork/Images: © Dean Beedell – separate license applies
+
+Please be aware that you may use
+any of my own imagery in your own creations but commercially only with my
+permission. In all other non-commercial cases I require a credit to the
+original artist using my name or one of my pseudonyms and a link to my site.
+With regard to the commercial use of incorporated images, permission and a
+licence would need to be obtained from the original owner and creator, ie. me.
+ 
  
 
 
