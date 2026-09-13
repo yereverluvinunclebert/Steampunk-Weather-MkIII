@@ -523,9 +523,9 @@ function getData(loc) {
     analysisType2 = "";
     request.onreadystatechange = myStatusProc;
     if (debug == 1) { print("%getData - location " + loc)};
-    request.open("GET", "https://aviationweather.gov/api/data/metar?ids=" + loc + "&hours=6&order=id%2C-obs&sep=true&format=xml&mostRecent=true", "true");
+    request.open("GET", "https://aviationweather.gov/api/data/metar?ids=" + loc + "&hours=6&sep=true&format=xml", "true");
 
-    if (debug == 1) { print("%getData - https://aviationweather.gov/api/data/metar?ids=" + loc + "&hours=6&order=id%2C-obs&sep=true&format=xml&mostRecent=true")};
+    if (debug == 1) { print("%getData - https://aviationweather.gov/api/data/metar?ids=" + loc + "&hours=6&sep=true&format=xml")};
 	
     request.timeout = 10;
     request.send();
@@ -546,9 +546,9 @@ function getTafData(loc) {
     analysisType2 = "forecast";
     request.onreadystatechange = tafStatusProc;
     if (debug == 1) { print("%getTafData - location " + loc)};
-    request.open("GET", "https://aviationweather.gov/api/data/metar?ids=" + loc + "&startTime=2023-10-16T14:11:15Z&endTime=2023-10-16T16:11:15Z&sep=true&format=xml&mostRecent=true", "true");
+    request.open("GET", "https://aviationweather.gov/api/data/metar?ids=" + loc + "&startTime=2023-10-16T14:11:15Z&endTime=2023-10-16T16:11:15Z&sep=true&format=xml", "true");
     
-	if (debug == 1) { print("%getTafData - https://aviationweather.gov/api/data/metar?ids=" + loc + "&hours=6&order=id%2C-obs&sep=true&format=xml&mostRecent=true")};
+	if (debug == 1) { print("%getTafData - https://aviationweather.gov/api/data/metar?ids=" + loc + "&hours=6&sep=true&format=xml")};
 
     request.timeout = 10;
     request.send();
